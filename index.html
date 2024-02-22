@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Buss-Ticket Landing Page</title>
+  <!--Tailwind Css link-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container mx-auto my-16">
+   <section class="nav-section">
+     <nav>
+      <h1 class="text-5xl font-bold">P-Ticket</h1>
+      </nav>
+      <ul>
+        <li><a href=""></a>Home</li>
+        <li><a href=""></a>About</li>
+        <li><a href=""></a>Destination</li>
+        <li><a href="">Search</a></li>
+      </ul>
+      </nav>
+      <button class="w-max flex rounded-lg bg-lime-100 p-2 gap-2 text-base font-bold text-green-500">Buss <img src="images/bus-icon.png" alt=""> </button>
+   </section>
+   <!-- Header img section-->
+   <section class="container mx-auto">
+    <div class="hero h-[655px] bg-[url('/images/banner.png')] bg-no-repeat bg-cover bg-center rounded-[32px] my-10">
+     
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md items-center">
+          <h1 class="mb-5 text-5xl font-bold"><span>End-to-End Travel With</span><br>
+          <span class="text-green-600">Nodi Poribahan</span> </h1>
+          <p class="mb-5">Yes, you can run unit tests and view the results directly within the app.
+          The integrated testing features allow for a streamlined.
+          </p>
+          <button onclick="go()" id="fast-btn" class="fast-btn p-4 rounded-xl text-black font-bold bg-green-600">Buy Tickets</button>
+        </div>
+      </div>
+    </div>    
+    </section>
+    <!--card section-->
+    <section class="container mx-auto relative">
+      <div class="flex gap-4 absolute  mx-40 -top-32 items-center justify-center opacity-95">
+        <div class="card w-96 bg-base-100 border-2 border-b-lime-500 shadow-xl ">
+          <div class="card-body">
+            <div class="card-actions flex justify-center items-center">
+              <img src="images/people.png" alt="">
+              <h1 class="text-5xl font-bold"> 500K+</h1>
+              <p class="text-center">Registered users</p>
+            </div>
+           </div>
+        </div>
+     
+
+        <div class="card w-96 bg-base-100 border-2 border-b-lime-500 shadow-xl">
+          <div class="card-body">
+            <div class="card-actions flex justify-center items-center">
+              <img src="images/ticket-cupon.png" alt="">
+              <h1 class="text-5xl font-bold">1.7 Lacks</h1>
+              <p class="text-center">Tickets sold</p>
+            </div>
+           </div>
+        </div>
+      
+
+        <div class="card w-96 bg-base-100 border-2 border-b-lime-500 shadow-xl">
+          <div class="card-body">
+            <div class="card-actions flex justify-center items-center">
+              <img src="images/stoppage.png" alt="">
+              <h1 class="text-5xl font-bold"> 800K+</h1><br>
+              <p class="text-center">Rental partners</p>
+            </div>
+           </div>
+        </div>
+
+      </div>
+    </section>
+  </header>
+  <main>
+ <!--offer section-->
+ <section class="container mx-auto my-44 ">
+  <h3 class="text-5xl font-bold text-center">Best offers for you</h3>
+  <div class="flex items-center justify-center my-12 gap-4">
+    <div class="flex-1">
+      <div class="card card-side bg-amber-500 shadow-xl"> 
+        <div class="card-body flex flex-row">
+         <div class="flex-1">
+           <h3 class="text-5xl font-bold items-center justify-center">15% OFF</h3>
+           <p class="pt-4">on your next purchase</p>
+          <p>use by January 2024</p>
+         </div>
+          <div class="card-actions flex-1 items-center">
+            <h2 class="text-3xl font-semibold text-center">NEW<sub>15</sub></h2>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" flex-1">
+     <div class="card card-side bg-pink-400 shadow-xl"> 
+      <div class="card-body flex flex-row">
+        <div class="flex-1">
+         <h3 class="text-5xl font-bold items-center justify-center">20% OFF</h3>
+         <p class="pt-4">on your next purchase</p>
+        <p>use by January 2024</p>
+       </div>
+         <div class="card-actions flex-1 items-center">
+          <h2 class="text-3xl font-semibold text-center">Couple<sub>20</sub></h2>
+           <p>Coupon Code</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="py-6 text-center"><button class="text-base font-bold text-green-400 p-4 border-2 border-green-300 rounded-xl">See All Offers</button></div>
+ </section>
+ <!--Buss schedule section-->
+ <section  id="here" class="container mx-auto -my-24">
+  <div class="text-center"><h1 class="text-5xl font-bold">Nodi Paribahan</h1>
+    <p class="text-base pt-4">Yes, you can run unit tests and view the results directly within the app. The integrated <br>testion features allow for a streamlined</p></div>
+  <!--main div-->
+  <div class="pt-16">
+  <!--flex div-->
+    <div class="flex flex-row ">
+       <div class="div1 flex-1">
+        <div>
+          <div class="flex justify-between items-center">
+            <div class="flex gap-4">
+              <div class="">
+                <img src="images/bus-logo.png" alt="">
+              </div>
+              <div> 
+                <h2 class="text-3xl font-bold">Nodi poribahan </h2>
+                <P>Coach-009-WEB ! AC_Business</P></div>
+             </div>
+            <div>
+              <button class="flex border-emerald-600 bg-lime-100 text-lime-500 p-3 rounded-xl gap-2"><img src="images/seat-green.png" alt="">40 Seats left</button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-slate-50 my-4 rounded-2xl">
+          <div class="flex justify-between mx-4 p-6 rounded-2xl">
+          <p>Route</p>
+          <p>Dhaka-Sylhet</p>
+        </div>
+        <hr class="">
+          <div class="flex justify-between mx-4 p-6">
+          <p>Departure Time</p>
+          <p>9.00 PM</p>
+        </div>
+        <hr>
+        <div class="flex justify-between mx-4 p-6">
+          <button class="bg-slate-200 p-4 rounded-xl">Boarding Point-Laxmipur</button>
+          <button class="bg-slate-200 p-4 rounded-xl">Dropping Point-Bogura</button>
+          <button class="bg-slate-200 p-4 rounded-xl">Est.Time-11 Hour</button>
+        </div>
+          </div>
+            </div>
+
+       <div class="div2 w-3/12 bg-slate-50">
+          <div class="flex flex-col justify-center items-center h-full">
+            <div class="">
+              <img src="images/fare.png" alt="">
+            </div>
+            <div class="">
+              <h2 class="text-3xl font-bold">550 Taka</h2>
+              <p class="text-xl">Per Seat</p>
+            </div>
+          </div>
+       </div>
+
+    </div>
+  
+  </div>
+ </section>
+ <!--Seat section and ticket economy0-->
+ <section class="container mx-auto my-24 bg-gray-50">
+  <!--main div-->
+  <div class="mx-12 rounded-xl bg-white">
+   <!--flex div-->
+   <div class="flex gap-4 ">
+    <div class="div1 flex-1 border-2  h-96">
+      <div class="p-4">
+        <h2 class="text-2xl">Select Your Seat</h2>
+      </div><hr>
+      <div class="flex justify-between p-4">
+      <p class="flex px-2"><img src="images/seat-gray.png" alt="">Available</p>
+      <p class="flex px-2"><img src="images/seat-green.png" alt=""> <span class="text-green-500 font-bold">Selected</span></p>
+     </div> <hr>
+     <div class="flex justify-end ml-8">
+      <img src="images/Group 56.png" alt="">
+     </div>
+    <div class="flex mt-4 gap-8">
+      <div class="flex-1 left-side">
+     <div class="grid grid-cols-2 gap-4 ">
+      <div class="flex">
+        <div class="p-4">A</div>
+        <div>
+          <button class="seat-btn px-8 py-4 rounded-2xl bg-slate-300">A-1</button>
+        </div>
+      </div>
+     <div class="">
+      <button class=" seat-btn px-8 py-4 rounded-2xl bg-slate-300">A-2</button>
+     </div>
+      <div class="flex">
+        <div class="p-4">B</div>
+        <div>
+          <button class="  seat-btn px-8 py-4 rounded-2xl bg-slate-300">B-1</button>
+        </div>
+
+      </div>
+     <div>
+      <button class="seat-btn px-8 py-4 rounded-2xl bg-slate-300">B-2</button>
+     </div>
+   </div>
+  </div>
+      <div class=" flex-1 right-side">
+       <div class="grid grid-cols-2 gap-4 justify-between">
+        <div class="">
+          <button class="  seat-btn px-8 py-4 rounded-2xl bg-slate-300">A-3</button>
+        </div>
+       <div>
+        <button class="  seat-btnpx-8 py-4 rounded-2xl bg-slate-300" >A-4</button>
+       </div>
+        <div class="">
+          <button class="px-8 py-4 rounded-2xl bg-slate-300  seat-btn">B-3</button>
+        </div>
+       <div>
+        <button class=" seat-btn px-8 py-4 rounded-2xl bg-slate-300 ">B-4</button>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+    <div class="div2 flex-1 border-2 h-96">
+      <div>
+        <h3 class="text-2xl p-4">Your Coast For Seat</h3>
+      </div><hr>
+      <div class="bg-gray-50">
+        <div class=" flex justify-between p-4">
+          <p>Seat</p>
+          <p>Class</p>
+          <p>Price</p>
+        </div><hr>
+        <div class="economy"></div><hr>
+        <div class="total-coast flex justify-between p-4">
+          <h2>Total Price</h2>
+          <p>BDT <span class="total-coast-value">0</span></p>
+        </div>
+        <div class="flex justify-end">
+          <input type="text" placeholder="Have any coupon" class="input input-success px-8 max-w-xs" /><button class="discount-btn bg-lime-400 p-3 rounded-xl">Apply</button>
+        </div>
+        <div class="grand-total flex justify-between p-4">
+          <h2>Grand Total</h2>
+          <p>BDT <span class="grand-total-value">0</span></p>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+ </section>
+  </main>
+  <footer>
+    
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
